@@ -1,0 +1,59 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+
+    header {
+        background: linear-gradient(180deg, transparent, #2699a8);
+        width: 100%;
+        border-radius: 50px 50px 0 0;
+
+        h1 {
+            font-size: 4rem;
+            color: #00ff00;
+            text-shadow: #191970 5px 10px 7.5px;
+            transition: .2s ease-out;
+            width: max-content;
+            margin: 50px auto;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    section {
+        background: #2699a8;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .selector-div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 50;
+
+            span {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    footer {
+        background: linear-gradient(0deg, transparent, #2699a8);
+        width: 100%;
+        text-align: center;
+        color: whitesmoke;
+        border-radius: 0 0 50px 50px;
+        padding: 50px 0;
+    }
+}
